@@ -1,4 +1,8 @@
 package sheridan.supritha.adapters
 
-class ContactAdapter {
+import androidx.recyclerview.widget.RecyclerView
+import sheridan.supritha.models.Contact
+
+class ContactAdapter (private val contacts: List<Contact>) :
+    RecyclerView.{
 }
